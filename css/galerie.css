@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+.image-block {
+  margin-right: 2%;
+}
+
+.galerie-container {
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.img-galerie:hover {
+  border-color: white !important;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.galerie-title {
+  display: inline-block;
+  margin-top: 170%;
+
+  font-size: 45px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 24px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+.header-link {
+  text-decoration: none;
+}
+body {
+  background-image: url("../images/background.png");
+  font-size: 25px;
+  color: white;
+  font-family: "Gugi", cursive;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.726);
+  font-family: "Gugi", cursive;
+  color: white;
+}
+
+.site-title {
+  font-size: 90px;
+  font-family: "Gugi", cursive;
+  color: white;
+}
+
+.nav-button {
+  font-size: 20px;
+  font-family: "Gugi", cursive;
+  color: white;
+}
+
+.nav-link {
+  font-size: 25px;
+  font-family: "Gugi", cursive;
+  color: white;
+}
+
+#avatar {
+  width: 65px;
+  border-radius: 20px;
+}
+
+.shop {
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.connection-block {
+  margin-top: 2.5%;
+}
+
+.search-block {
+  margin-bottom: 5px;
+}
+#search_bar {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(166, 166, 166, 0.453);
+  color: white;
+  width: 200px;
+
+  padding-right: 0;
+  border: 0;
+}
+
+#loupe {
+  background-color: rgba(166, 166, 166, 0.453);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 50px;
+  border: 0;
+}
+
+.nav-arrow :hover {
+  color: red;
+  cursor: zoom-in;
+}
+
+#modalImg {
+  position: relative;
+  z-index: -1;
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+.slide-right {
+  transform: translateX(20%);
+  opacity: 0;
+}
+
+.slide-left {
+  transform: translateX(-20%);
+  opacity: 0;
+}
+
+.button-left-right {
+  z-index: 999;
+}
+
+.page-navigation a {
+  text-decoration: inherit;
+  color: white;
+}

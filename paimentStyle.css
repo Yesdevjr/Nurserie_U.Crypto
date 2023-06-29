@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(acccc.png);
+    font-size: 25px;
+    color: white;
+    font-family: 'Gugi', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.726);
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Gugi', cursive;
+    color: white;
+
+}
+
+
+h2 {
+    font-size: 20px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#avatar {
+    width: 65px;
+    border-radius: 20px;
+}
+
+#shop {
+    width: 50px;
+    border-radius: 50px;
+}
+
+#search_bar {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(166, 166, 166, 0.453);
+    color: white;
+    width: 250px;
+    border: 0;
+
+}
+
+#loupe {
+    background-color: rgba(166, 166, 166, 0.453);
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 50px;
+    border: 0;
+
+}
+
+/* .header .container-fluid .row .col-9 #avatar {
+    position: absolute;
+    width: 68px;
+    height: 87px;
+    left: 1546px;
+    top: 26px;
+} */
+
+.search-block {
+    margin-bottom: 5px;
+}
+
+.formPCard {
+    /*position: relative;
+    width: 615px;
+    height: 730px;
+    top: 25%;*/
+
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 30px;
+}
+
+#avatar {
+    width: 70px;
+    padding-left: 20px;
+    border-radius: 20px;
+    /* position: absolute; */
+    margin-right: 20px;
+}
+
+.profile {
+    text-align: right;
+}
+
+.header #shop {
+    width: 90px;
+
+}
+
+.header h2 {
+    font-size: 20px;
+}
+
+
+/* .shop {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 50px;
+    border-radius: 50px;
+  } */
+
+.formPCard .tos {
+    background: linear-gradient(#03bb0d, #35014d);
+    box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
+    position: relative;
+}
+
+.formPCard input {
+    width: 100%;
+}
+
+a>button {
+    width: 50%;
+    background: linear-gradient(180deg, #FA0000 0%, rgba(11, 1, 1, 0) 100%);
+    border-radius: 15px;
+}
+
+body {
+    background: url(acccc.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Gugi', cursive;
+}

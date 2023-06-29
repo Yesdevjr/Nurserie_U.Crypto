@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link href="css/galerie.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body class="bg-secondary">
+
+  <!-- Header -->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-9">
+          <a class="header-link" href="acceuil.html">
+            <h1 class="site-title">U.Crypto <span>
+                <i class="bi bi-star"></i>
+              </span>
+            </h1>
+          </a>
+        </div>
+        <div class="col-1">
+          <a class="header-link" href="Profil.html">
+            <img src="img_profil.jpg" alt="avatar" id="avatar">
+          </a>
+        </div>
+        <div class="col-1 connection-block">
+          <a class="header-link" href="Connexion.html">
+            <h2 class="nav-button">Se connecter</h2>
+          </a>
+          <a class="header-link" href="Creercompte.html">
+            <h2 class="nav-button">S'enregistrer</h2>
+          </a>
+        </div>
+        <div class="col-1 shop">
+          <a href="Panier.html"><i class="fa-solid fa-basket-shopping" style="color: #ffffff;"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <a class="header-link" href="#home">
+            <h3 class="nav-link">Accueil</h3>
+          </a>
+        </div>
+        <div class="col-4">
+          <a class="header-link" href="galerie.html">
+            <h3 class="nav-link">Galerie</h3>
+          </a>
+        </div>
+        <div class="col-5 search-block"> Rechercher : <input type="search" placeholder="       ...." id="search_bar">
+          <button id="loupe" type="submit">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Image containers-->
+  <div class="galerie-container">
+    <div class="row">
+      <div class="col-auto">
+        <span class="galerie-title">Galerie</span>
+      </div>
+      <div class="col-10 mx-5">
+        <div class="row image-block">
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" imagenbr="1" id="galerie-img-1">
+              <img src="images/image.png" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" imagenbr="2" id="galerie-img-2">
+              <img src="images/image-2.jpg" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" imagenbr="3" id="galerie-img-3">
+              <img src="images/image-3.png" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" imagenbr="4" id="galerie-img-4">
+              <img src="images/image-4.jpg" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" imagenbr="5" id="galerie-img-5">
+              <img src="images/image-5.png" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+        </div>
+        <div class="row my-1 gy-3 image-block">
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" imagenbr="6" id="galerie-img-6">
+              <img src="images/image-6.jpg" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" id="galerie-img-7">
+              <img src="images/image-7.jpg" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" id="galerie-img-8">
+              <img src="images/image-8.webp" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" id="galerie-img-9">
+              <img src="images/image.png" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+          <div class="col">
+            <a href="" data-bs-toggle="modal" data-bs-target="#imageModal" id="galerie-img-10">
+              <img src="images/image.png" class="img-fluid rounded border border-2 border-dark img-galerie" />
+            </a>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-5"></div>
+          <div class="col-2">
+            <div class="page-navigation">
+              <a href="#" class="page-navigation">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a> .. <a href="#">9</a>
+            </div>
+          </div>
+          <div class="col-5"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Display image modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-transparent">
+      <div class="modal-content bg-transparent border-0">
+        <div class="modal-body p-0 position-relative">
+          <span class="button-left-right">
+            <button class="btn btn-link text-light prev-btn position-absolute top-50 start-0 translate-middle-y">
+              <i class="fas fa-arrow-left fa-border"></i>
+            </button>
+            <button class="btn btn-link text-light next-btn position-absolute top-50 end-0 translate-middle-y">
+              <i class="fas fa-arrow-right fa-border"></i>
+            </button>
+          </span>
+          <img src="" id="modalImg" alt="Image" width="512" height="512"
+            class="img-fluid rounded border border-2 border-dark">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <!-- <div class="container"></div><footer class="bg-dark py-3 fixed-bottom"><div class="container"><div class="row"><div class="col-md-6"><p class="text-light mb-0">© 2023</p></div><div class="col-md-6 text-md-end"><a href="#" class="text-light me-3" data-bs-toggle="modal" data-bs-target="#privacyModal"
+        >Politique de confidentialité</a
+        ><a href="#" class="text-light" data-bs-toggle="modal" 
+        data-bs-target="#termsModal">Conditions d'utilisation</a></div></div></div></footer> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    let currentIndex = -1;
+    let Images = document.querySelectorAll('[id*="galerie-img-"]');
+    var modalImage = $("#modalImg");
+    $("#imageModal").on("show.bs.modal", function (event) {
+      var image = $(event.relatedTarget).children()[0].getAttribute("src");
+      currentIndex = parseInt(event.relatedTarget.getAttribute("imagenbr")) - 1;
+      console.log(image);
+      console.log($("#modalImg")[0].src);
+      $("#modalImg")[0].src = image;
+    });
+    $("#exampleModal").on("show.bs.modal", function (event) {
+      var image = $(event.relatedTarget).children()[0].getAttribute("src");
+      console.log(image);
+      $("#modalImage").attr("src", image);
+    });
+    $(".prev-btn").click(function () {
+      if (currentIndex == 0) currentIndex = Images.length - 1;
+      currentIndex = (currentIndex - 1 + Images.length) % Images.length;
+      //modalImage.attr("src", Images[currentIndex].children[0].src);
+      slideImage("left");
+    });
+    $(".next-btn").click(function () {
+      if (currentIndex > Images.length - 1) currentIndex = 0;
+      currentIndex = (currentIndex + 1 + Images.length) % Images.length;
+      console.log(Images[currentIndex].children[0].src);
+      slideImage("right");
+      //modalImage[0].src = Images[currentIndex].children[0].src;
+      console.log(currentIndex);
+    });
+
+    function slideImage(direction) {
+      modalImage.addClass("slide-" + direction);
+      setTimeout(function () {
+        modalImage.removeClass("slide-" + direction);
+        modalImage.attr("src", Images[currentIndex].children[0].src);
+      }, 300);
+    }
+  </script>
+</body>
+
+</html>

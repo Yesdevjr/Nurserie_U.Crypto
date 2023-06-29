@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(acccc.png);
+    font-size: 25px;
+    color: white;
+    font-family: 'Gugi', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.726);
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Gugi', cursive;
+    color: white;
+
+}
+
+
+h2 {
+    font-size: 20px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#avatar {
+    width: 65px;
+    border-radius: 20px;
+}
+
+#shop {
+    width: 50px;
+    border-radius: 50px;
+}
+
+#search_bar {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(166, 166, 166, 0.453);
+    color: white;
+    width: 250px;
+    border: 0;
+
+}
+
+#loupe {
+    background-color: rgba(166, 166, 166, 0.453);
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 50px;
+    border: 0;
+
+}
+
+/* ////////////////////  body */
+
+div>p {
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    padding-top: 50px;
+    background: linear-gradient(180deg, #000000 0%, rgba(179, 179, 179, 0) 100%);
+    border-radius: 30px;
+    padding-bottom: 160px;
+
+}
+
+input {
+    border-radius: 10px;
+    width: 100px;
+}
+
+div.col-4 {
+
+
+    text-align: center;
+
+
+    background: linear-gradient(270deg, #1F826A 2.8%, rgba(183, 158, 135, 0.26) 100%);
+    border-radius: 30px;
+
+}
+
+.col-5 a>button {
+
+    width: 400px;
+    height: 100px;
+
+
+    color: rgb(255, 255, 255);
+
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.6) 0.08%, rgba(16, 16, 16, 0.6) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 400px
+}

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(acccc.png);
+    font-size: 25px;
+    color: white;
+    font-family: 'Gugi', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.726);
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Gugi', cursive;
+    color: white;
+
+}
+
+
+h2 {
+    font-size: 20px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Gugi', cursive;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.col-1 #avatar {
+    width: 70px;
+    padding-left: 20px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.col-1 #shop {
+    width: 50px;
+    border-radius: 50px;
+}
+
+#search_bar {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(166, 166, 166, 0.453);
+    color: white;
+    width: 250px;
+    border: 0;
+
+}
+
+#loupe {
+    background-color: rgba(166, 166, 166, 0.453);
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 50px;
+    border: 0;
+
+}
+
+
+
+
+h6 {
+    color: #F4D73E;
+}
+
+img#nft1 {
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+img#nft2 {
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #F4D73E;
+}
+
+.col-4 h6 p {
+    color: white;
+}
