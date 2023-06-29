@@ -1,6 +1,7 @@
 🚀🎨 U.Crypto 🪐🌌
 
 FR:
+
 Nous sommes ravis de vous présenter U.Crypto, un projet fictif développé lors de la formation de la Nurserie en mai. En seulement cinq jours, notre équipe de quatre membres talentueux a créé une plateforme captivante de NFT sur le thème de l'espace, alliant art numérique et cryptomonnaie.
 
 Grâce à nos compétences en développement web, design et gestion de projet, nous avons donné vie à U.Crypto en optimisant chaque minute. Nous avons commencé par créer des maquettes individuelles sur Figma, puis avons fusionné nos idées lors d'une collaboration intense le deuxième jour.
@@ -13,7 +14,9 @@ Ce projet fictif démontre notre capacité à relever des défis et à concréti
 
 
 
+
 EN:
+
 We are delighted to present U.Crypto, a fictional project developed during the Nurserie training in May. In just five days, our team of four talented members created a captivating NFT platform with an outer space theme, combining digital art and cryptocurrency.
 
 Using our skills in web development, design, and project management, we brought U.Crypto to life by optimizing every minute. We started by creating individual mockups on Figma, then merged our ideas during intense collaboration on the second day.
